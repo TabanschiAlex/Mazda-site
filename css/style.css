@@ -50,20 +50,30 @@ body {
 
 .nav{
     margin-top: 150px;
+    position: relative;
 }
 
 .header__link {
     display: list-item;
     text-decoration: none;
-    text-align: center;
     background: #fff;
     width: 80px;
     height: 80px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 20px;
+    background: url("../img/model.png") no-repeat;
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+#m1 {
+    font-size: 22px;
+    text-align: center;
+    color: silver;
 }
 
 .header__link:hover {
-    color: aliceblue;
+    color: rgba(red);
 }
