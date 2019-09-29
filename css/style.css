@@ -53,27 +53,47 @@ body {
     position: relative;
 }
 
-.header__link {
+.header__link1 {
     display: list-item;
     text-decoration: none;
     background: #fff;
-    width: 80px;
-    height: 80px;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 20px;
     background: url("../img/model.png") no-repeat;
-    width: 80px;
-    height: 80px;
     background-size: contain;
 }
 
-#m1 {
-    font-size: 22px;
-    text-align: center;
-    color: silver;
+.header__link2 {
+    
 }
 
-.header__link:hover {
-    color: rgba(red);
+#m1 {
+    font-size: 18px;
+    text-align: center;
+    color: silver;
+    margin-top: 0px;
+}
+
+.header__link1:hover {
+    animation: bounce 0.8s;
+}
+
+@keyframes bounce {
+ 0%, 20%, 60%, 100% {
+ -webkit-transform: translateY(0);
+ transform: translateY(0);
+ }
+ 
+ 40% {
+ -webkit-transform: translateY(-20px);
+ transform: translateY(-20px);
+ }
+ 
+ 80% {
+ -webkit-transform: translateY(-10px);
+ transform: translateY(-10px);
+ }
 }
