@@ -54,9 +54,8 @@ body {
 }
 
 .header__link1 {
-    display: list-item;
+    display: block;
     text-decoration: none;
-    background: #fff;
     width: 60px;
     height: 60px;
     margin-left: 20px;
@@ -67,13 +66,69 @@ body {
 }
 
 .header__link2 {
-    
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url("../img/drive.png") no-repeat;
+    background-size: contain;
 }
 
-#m1 {
-    font-size: 18px;
+.header__link3 {
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url("../img/configurator.png") no-repeat;
+    background-size: contain;
+}
+
+.header__link4 {
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url("../img/special.png") no-repeat;
+    background-size: contain;
+}
+
+.header__link5 {
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url("../img/service.png") no-repeat;
+    background-size: contain;
+}
+
+.header__link6 {
+    display: block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background: url("../img/more.png") no-repeat;
+    background-size: contain;
+}
+
+#mn {
+    font-size: 14px;
     text-align: center;
-    color: silver;
+    color: #dcdcdc;
     margin-top: 0px;
 }
 
@@ -81,19 +136,92 @@ body {
     animation: bounce 0.8s;
 }
 
+.header__link2:hover {
+    animation: rotate360 0.8s;
+}
+
+.header__link3:hover {
+    animation: left_right 0.8s;
+}
+
+.header__link4:hover {
+    animation: rotate90 0.8s;
+}
+
+.header__link5:hover {
+    animation: up_down 0.8s;
+}
+
+.header__link6:hover {
+    animation: bounce 0.8s;
+}
+
+
+
+
+    /* Animations */
+
+@keyframes up_down {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes left_right {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+@keyframes rotate90 { 
+    0% { 
+        transform: rotate(0deg); 
+    }
+    50% { 
+        transform: rotate(65deg); 
+    }
+    100% { 
+        transform: rotate(0deg); 
+    }
+}
+
+@keyframes rotate360 { 
+    from { 
+        transform: rotate(0deg); 
+    }
+    to { 
+        transform: rotate(360deg); 
+    } 
+}
+
 @keyframes bounce {
  0%, 20%, 60%, 100% {
- -webkit-transform: translateY(0);
  transform: translateY(0);
  }
  
  40% {
- -webkit-transform: translateY(-20px);
  transform: translateY(-20px);
  }
  
  80% {
- -webkit-transform: translateY(-10px);
  transform: translateY(-10px);
  }
 }
