@@ -165,6 +165,17 @@ body {
 }
 
 
+    /* Content */
+
+.content {
+    padding-left: 100px;
+    text-align: center;
+    color: #dcdcdc;
+}
+
+.content span {
+    font-size: 30px;
+}
 
     /* Animations */
 
