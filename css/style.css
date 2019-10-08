@@ -24,6 +24,7 @@ body {
     position: relative;
     display: block;
     overflow: auto;
+    z-index: 100;
 }
 
 .header__menu {
@@ -159,11 +160,8 @@ body {
 
     /* Slaider */
 
-.slaider img {
-    margin: 0;
-    width: 100%;
-    position: static;
-    padding-left: 100px;
+.slaiders {
+
 }
 
 
