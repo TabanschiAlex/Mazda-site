@@ -177,6 +177,104 @@ body {
     font-size: 30px;
 }
 
+.content ul {
+    padding: 0;
+    margin: 0;    
+}
+
+.content ul li {
+    display: inline-block;
+    position: relative;
+    list-style-type: none;
+    border: 2px solid;
+    margin-top: 15px;
+}
+
+.content ul li a {
+    text-decoration: none;
+    color: #dcdcdc;
+}
+
+#mazda2 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda2.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda3_hatch {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda3_hatch.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda3_sedan {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda3_sedan.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda6 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda6.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda6_wagon {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda6_wagon.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda_cx3 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazdacx3.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda_cx30 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazdacx30.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda_cx5 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazdacx5.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda_cx8 {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazdacx8.png') no-repeat;
+    background-size: contain;
+}
+
+#mazda_roadster {
+    width: 400px;
+    display: block;
+    height: 200px;
+    background: url('../img/models/mazda_roadster.png') no-repeat;
+    background-size: contain;
+}
+
     /* Animations */
 
 @keyframes up_down {
