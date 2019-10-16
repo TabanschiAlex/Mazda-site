@@ -48,6 +48,7 @@ body {
 .header__logo:hover {
     opacity: 0.6;
     transition:  opacity 0.2s linear;
+    color:red;
 }
 
 .nav{
@@ -127,11 +128,20 @@ body {
     background-size: contain;
 }
 
+.mnref {
+    text-decoration: none;
+    transition:  opacity 0.2s linear;
+}
+
 #mn {
     font-size: 14px;
     text-align: center;
     color: #dcdcdc;
     margin-top: 0px;
+}
+
+#mn:hover {
+    color: red;
 }
 
 .header__link1:hover {
@@ -180,6 +190,11 @@ body {
 .content ul {
     padding: 0;
     margin-top: 40px;    
+}
+
+.video {
+    margin-top: 50px;
+    width: 100%;
 }
 
 .p_cars {
