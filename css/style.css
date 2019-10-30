@@ -56,6 +56,13 @@ body {
     position: relative;
 }
 
+.active {
+	font-size: 14px;
+    text-align: center;
+    color: red;
+    margin-top: 0px;
+}
+
 .header__link1 {
     display: block;
     text-decoration: none;
@@ -308,6 +315,13 @@ body {
     background-size: contain;
 }
 
+	/* Page Special */
+
+.special {
+	display:inline-block;
+	position: relative;
+}
+	
     /* Animations */
 
 @keyframes up_down {
